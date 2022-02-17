@@ -68,34 +68,65 @@ h1 {
 }
 
 
-/* Layout */
+.container{
+    /* background: url("../images/addie_pasha-360_x_640.jpg") no-repeat center; */
+    /* opacity: 0.2; */
+    /* background-size: cover;
+    height: 600px; */
+    position: relative; 
+}
 
+.container:before{
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 640px;
+    opacity: 0.2;
+    background: url("../images/addie_pasha-360_x_640.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+
+}
+
+header{
+    position: absolute;
+    top: 0;
+    /* margin: 0 auto; */
+    text-align: center;
+} 
+
+
+
+/* Layout */
+/* 
 .flex-container{
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
-}
+} */
 
 
 /* Navigation */
 
 
-.nav-list{
+ .nav-list{
     font-family: 'Cabin Sketch', cursive;
     font-size: 2em;
-     padding-top: 30px;
-     
+    position: relative;
+    top: 250px;
 
 }
-
 
 .nav-list a{
     text-align: center;
     color: white;
     font-weight: bold;
     text-decoration: none;
-    /* line-height: 1;    */
 }
 
 .nav-list a,
@@ -103,14 +134,13 @@ h1 {
 .nav-list a:visited {
     display: block;
     padding: 1em 0;
-    /* text-decoration: double; */
 } 
 
 .nav-list a:hover,
 .nav-list a:focus,
 .nav-list a.current {
     transform: scale(1.5);
-}
+} 
 
 
 
@@ -120,9 +150,8 @@ h1 {
 
 /* -----------Desktop----------- */
 
-@media screen and (min-width: 760px) {
+/* @media screen and (min-width: 760px) {
     .flex-container{
-        /* width: 90%; */
         margin: 0 auto;
         flex-direction: column;
     }
@@ -133,4 +162,4 @@ h1 {
 
 }
 
-}
+} */
