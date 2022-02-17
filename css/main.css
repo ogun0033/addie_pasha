@@ -131,7 +131,7 @@ header{
     text-decoration: none;
 }
 
-.nav-list a,
+/* .nav-list a,
 .nav-list a:link,
 .nav-list a:visited {
     display: block;
@@ -142,7 +142,7 @@ header{
 .nav-list a:focus,
 .nav-list a.current {
     transform: scale(1.5);
-} 
+}  */
 
 
 
@@ -165,3 +165,17 @@ header{
 }
 
 } */
+
+/* 
+.nav-list a,
+.nav-list a:link,
+.nav-list a:visited {
+    display: block;
+    padding: 1em 0;
+} 
+
+.nav-list a:hover,
+.nav-list a:focus,
+.nav-list a.current {
+    transform: scale(1.5);
+}  */
