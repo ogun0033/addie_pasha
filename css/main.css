@@ -60,16 +60,57 @@ body {
 }
 
 
+h1 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 3em;
+    padding: 1em;
+    text-align: center;
+}
 
 
+/* Layout */
+
+.flex-container{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
 
 
+/* Navigation */
 
 
+.nav-list{
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 2em;
+     padding-top: 30px;
+     
+
+}
 
 
+.nav-list a{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    /* line-height: 1;    */
+}
 
+.nav-list a,
+.nav-list a:link,
+.nav-list a:visited {
+    display: block;
+    padding: 1em 0;
+    /* text-decoration: double; */
+} 
 
+.nav-list a:hover,
+.nav-list a:focus,
+.nav-list a.current {
+    transform: scale(1.5);
+}
 
 
 
@@ -78,3 +119,7 @@ body {
 
 
 /* -----------Desktop----------- */
+
+@media screen and (min-width: 760px) {
+    
+}
