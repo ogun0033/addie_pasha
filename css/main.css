@@ -63,18 +63,15 @@ body {
 h1 {
     font-family: 'Kaushan Script', cursive;
     font-size: 3em;
-    /* padding: 1em; */
     padding-top: 1em;
     padding-left: 2em;
     text-align: center;
 }
 
 
+/* Layout */
+
 .container{
-    /* background: url("../images/addie_pasha-360_x_640.jpg") no-repeat center; */
-    /* opacity: 0.2; */
-    /* background-size: cover;
-    height: 600px; */
     position: relative; 
 }
 
@@ -102,17 +99,6 @@ header{
 } 
 
 
-
-/* Layout */
-/* 
-.flex-container{
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: center;
-    align-items: center;
-} */
-
-
 /* Navigation */
 
 
@@ -137,17 +123,6 @@ header{
     display: block;
     padding: 0.7em 0;
 } 
-
-/* .nav-list a:hover,
-.nav-list a:focus,
-.nav-list a.current {
-    transform: scale(1.5);
-}  */
-
-
-
-
-
 
 
 /* -----------Desktop----------- */
