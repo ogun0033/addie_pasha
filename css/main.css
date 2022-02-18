@@ -94,7 +94,7 @@ h1 {
 header{
     position: absolute;
     top: 0;
-     margin: 0 auto; 
+    margin: 0 auto; 
     text-align: center;
 } 
 
@@ -127,19 +127,14 @@ header{
 
 /* -----------Desktop----------- */
 
-/* @media screen and (min-width: 760px) {
-    .flex-container{
-        margin: 0 auto;
-        flex-direction: column;
+ @media screen and (min-width: 760px) {
+    .container:before {
+        background: url("../images/addiepasha_xl.gif");
     }
-    
-.nav-list{
-    display: flex;
-    justify-content: space-evenly;
 
-}
 
-} */
+   
+} 
 
 /* 
 .nav-list a,
@@ -154,3 +149,15 @@ header{
 .nav-list a.current {
     transform: scale(1.5);
 }  */
+
+
+/* .flex-container{
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.nav-list{
+display: flex;
+justify-content: space-evenly;
+
+} */
